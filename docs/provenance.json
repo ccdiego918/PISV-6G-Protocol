@@ -1,0 +1,58 @@
+{
+  "source_commit": "1644d061bc30b91230a5e7829ff7ef62585b4176",
+  "weights_sha256": "f89510ddfa90dfdfb42edd8ea3a7167e287cdc0bd5f44b957b8dfde6d0868690",
+  "onnx_sha256": "97f2ef7038ae523d08fc546cf8e32661e21c00cf897e7dd2ee85b3a27ccd8d01",
+  "onnx_max_absolute_error": 4.470348358154297e-07,
+  "examples_test_indices": [
+    10,
+    105,
+    75,
+    103,
+    159,
+    16,
+    7,
+    60,
+    55,
+    47
+  ],
+  "selection": "Manual por reconocimiento visual del original, sin filtrar por aceptación del modelo. No es una muestra de evaluación.",
+  "training": {
+    "source_commit": "1644d061bc30b91230a5e7829ff7ef62585b4176",
+    "dataset": "CIFAR-10 training split",
+    "dataset_distribution": "https://huggingface.co/datasets/uoft-cs/cifar10",
+    "training_images": 50000,
+    "epochs": 5,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "training_sigma": 0.2,
+    "seed": 2026,
+    "device": "cpu",
+    "torch": "2.14.1",
+    "seconds": 299.6127669811249,
+    "losses": [
+      {
+        "epoch": 1,
+        "mean_batch_mse": 0.008115052885097234
+      },
+      {
+        "epoch": 2,
+        "mean_batch_mse": 0.002446797600461413
+      },
+      {
+        "epoch": 3,
+        "mean_batch_mse": 0.001831079999644719
+      },
+      {
+        "epoch": 4,
+        "mean_batch_mse": 0.0015610674312195318
+      },
+      {
+        "epoch": 5,
+        "mean_batch_mse": 0.0013621874014272943
+      }
+    ],
+    "note": "Nuevo entrenamiento local. No son los pesos ni las métricas históricas del cuaderno."
+  },
+  "runtime": "onnxruntime-web 1.30.0",
+  "inference": "Real en el navegador; misma arquitectura y pesos; ruido gaussiano nuevo por transmisión."
+}
