@@ -1,4 +1,4 @@
-<h1 align="center">PISV: Protocolo de Integridad Semántica Verificable para 6G</h1>
+<h1 align="center">PISV: Protocolo de Integridad Semántica Verificable</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue"/>
   <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-red"/>
@@ -46,15 +46,15 @@ Comparativa de latencia procesando imágenes de alta resolución ($3840 \times 2
 | SSIM | 5344.89 ms | 0.2 | No viable en tiempo real |
 | **PISV** | **20.77 ms** | **48** | **Viable para video** |
 ## Autor
-Diego Acevedo Estudiante de Ingeniería Civil Telemática Universidad Técnica Federico Santa María (UTFSM)
+Estudiantes de Ingeniería Civil Telemática Universidad Técnica Federico Santa María (UTFSM)
 
 ## Referencia
 
 Si utilizas este código o protocolo en tu investigación, por favor cita el repositorio original:
 
 ```bibtex
-@article{PISV2025,
-  title={Protocolo de Integridad Semántica Verificable (PISV): Un Enfoque Basado en Deep Learning para Comunicaciones 6G Confiables},
+@article{PISV2026,
+  title={Protocolo de Integridad Semántica Verificable (PISV)},
   author={Acevedo, Diego},
   journal={Universidad Técnica Federico Santa María},
   year={2025},
