@@ -203,6 +203,8 @@ La demo simula emisor y receptor en la misma página. Genera una clave temporal 
 
 Estudiantes de Ingeniería Civil Telemática de la Universidad Técnica Federico Santa María (UTFSM).
 
+## Presentación:
+[Presentación Final](https://docs.google.com/presentation/d/1ckJ2HTE-9C4Bjf45ahLWWliUQ0jkOzy5bwRVudXrqZA/edit?usp=sharing)
 ## Referencia
 
 Para citar el código, indicar el repositorio y la versión o commit utilizado:
